@@ -1,0 +1,150 @@
+*{
+    padding:0em;
+    margin:0em;
+}
+
+body{
+    background-image: url("ba1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+#nav{
+    height: 4em;
+    margin:0 auto;
+    padding: 15px;
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+h1{
+    margin-left:1.8em;
+    color:#465043;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color:black;
+}
+.city{
+    text-decoration: none;
+    font-size:20px;
+    height:40px;
+    padding:5px;
+    margin-left:0px;
+    margin-right: 35px;
+    color:#465043;
+}
+
+#title{
+    margin: 0 auto;
+    width:70em;
+    color:#465043;
+}
+
+#Alahsa{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+
+#Alahsa h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Temp_uni_list{
+    display:flex;
+    gap:5px;
+    align-items:center;
+    font-size:18px;
+    color:#465043;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#days{
+    display:flex;
+    width:100%;
+    gap:20px;
+    justify-content: center;
+}
+
+.day{
+    margin:20px 10px;
+    padding:20px;
+    background-color:rgba(0, 0, 0, 0.473);
+    color:whitesmoke;
+    width:250px;
+    height:300px;
+    text-align:center;
+    border-radius:20px;
+}
+
+.day h3{
+    font-size:24px;
+}
+.day p{
+    font-size: 46px;
+}
+
+.day img{
+    border-radius:45%;
+    width:140px;
+    margin-top:20px;
+}
+
+.day p{
+margin-top:20px;
+font-size:20px;
+}
+.temps {
+    display:flex;
+    margin:0 auto;
+    width:50%;
+    justify-content:space-around;
+    font-size:26px;
+    
+}
+
+.temps.high {
+    color:whitesmoke;
+}
+
+.temps.low  {
+    color: #354231;
+}
+
+#footer{
+    width:100%;
+    height: 8em;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+    
+   
+#message{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgba(255, 255, 255, 0.473);
+    width:60%;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    position: fixed;
+    left:20%;
+    top:85%;
+   
+}
+
+#warning{
+    font-size:18px;
+    font-weight:bold;
+}
+
+#message button{
+    width:110px;
+    background-color: #465043;
+    color:whitesmoke;
+    margin-right:1em;
+
+}
